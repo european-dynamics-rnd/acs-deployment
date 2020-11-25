@@ -16,7 +16,7 @@ repository:
   strategy:
     type: Recreate
   image:
-    repository: alfresco/alfresco-content-repository
+    repository: quay.io/alfresco/alfresco-content-repository
     tag: "7.0.0-A12"
     pullPolicy: Always
     internalPort: 8080
