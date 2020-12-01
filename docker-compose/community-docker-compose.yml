@@ -59,7 +59,7 @@ services:
             - 8090:8090
 
     share:
-        image: quay.io/alfresco/alfresco-share:7.0.0-A13
+        image: quay.io/alfresco/alfresco-share:7.0.0-A12
         mem_limit: 1g
         environment:
             REPO_HOST: "alfresco"
